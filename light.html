@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Light | Chaya Peedika</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manjari:wght@700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="style6.css">
+</head>
+
+<body>
+
+<!-- SAME NAVBAR -->
+<nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        
+        <a class="navbar-brand logo-text" href="index.html">
+            ചായ പീടിക
+        </a>
+
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Chayakada</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="blackboard.html">Blackboard</a></li>
+               
+                <li class="nav-item"><a class="nav-link text-white" href="#">Nights</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Beyond</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="light.html">Light</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<section class="light-header text-center">
+    <div class="container text-white">
+        <h2>Find the Light</h2>
+        <p>When the lantern glows, we’re open.</p>
+    </div>
+</section>
+
+<!-- MENU + CART -->
+<section class="light-menu">
+<div class="container">
+
+<h4 class="mb-4 text-white">Order Menu</h4>
+
+<div class="row">
+
+<!-- MENU -->
+<div class="col-md-8">
+
+<div class="menu-item">
+    Chaya — ₹15
+    <button onclick="addItem('Chaya',15)">Add</button>
+</div>
+
+<div class="menu-item">
+    Coffee — ₹25
+    <button onclick="addItem('Coffee',25)">Add</button>
+</div>
+
+<div class="menu-item">
+    Pazhampori — ₹20
+    <button onclick="addItem('Pazhampori',20)">Add</button>
+</div>
+
+<div class="menu-item">
+    Paripp Vada — ₹12
+    <button onclick="addItem('Paripp Vada',12)">Add</button>
+</div>
+<div class="menu-item">
+    Uzhunnu Vada — ₹15
+    <button onclick="addItem('Uzhunnu Vada',15)">Add</button>
+</div>
+
+<div class="menu-item">
+    Ulli Vada — ₹15
+    <button onclick="addItem('Ulli Vada',15)">Add</button>
+</div>
+
+<div class="menu-item">
+    Unniyappam — ₹20
+    <button onclick="addItem('Unniyappam',20)">Add</button>
+</div>
+
+<div class="menu-item">
+    Neyyappam — ₹22
+    <button onclick="addItem('Neyyappam',22)">Add</button>
+</div>
+
+<div class="menu-item">
+    Undampori — ₹18
+    <button onclick="addItem('Undampori',18)">Add</button>
+</div>
+
+<div class="menu-item">
+    Sugiyan — ₹20
+    <button onclick="addItem('Sugiyan',20)">Add</button>
+</div>
+
+<div class="menu-item">
+    Kozhukatta — ₹25
+    <button onclick="addItem('Kozhukatta',25)">Add</button>
+</div>
+
+<div class="menu-item">
+    Ela Ada — ₹25
+    <button onclick="addItem('Ela Ada',25)">Add</button>
+</div>
+
+</div>
+
+<!-- CART -->
+<div class="col-md-4">
+
+<div class="cart-box text-white">
+<h5>Your Cart</h5>
+
+<ul id="cartList"></ul>
+
+<hr>
+<p>Total: ₹<span id="total">0</span></p>
+
+<button class="clear-btn" onclick="clearCart()">Clear</button>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- LOCATION -->
+<section class="location-section">
+<div class="container">
+
+    <div class="row align-items-center">
+
+        <!-- MAP -->
+        <div class="col-md-7 mb-4">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.207554401867!2d76.29749097479362!3d9.999707290105665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d169e7c103f%3A0xef407b3b09a624ef!2sStadium%20Rd%2C%20Kaloor%2C%20Ernakulam%2C%20Kochi%2C%20Kerala%20682017!5e0!3m2!1sen!2sin!4v1771758876355!5m2!1sen!2sin" 
+            width="100%" height="350" style="border:0;" loading="lazy">
+            </iframe>
+        </div>
+
+        <!-- ADDRESS -->
+        <div class="col-md-5 text-white">
+
+            <h4>Visit Us</h4>
+
+            <p class="address">
+                Chaya Peedika<br>
+                Near Stadium Rd<br>
+                Kaloor, Ernakulam, Kochi, Kerala 682017
+            </p>
+
+            <p>
+                🕒 Open: 6 PM – 1 AM<br>
+                ☎️ Phone: +91 62357 01868
+            </p>
+
+            <p class="tagline">
+                If the lantern glows, we’re open.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<footer class="footer-section ">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <h4 class="footer-logo">ചായ പീടിക</h4>
+                <p class="footer-text">
+                    Where steam rises and stories begin.
+                </p>
+            </div>
+
+           
+            <div class="col-md-4 mb-4">
+                <h6 class="footer-heading">Navigate</h6>
+                <ul class="footer-links">
+                    <li><a href="index.html">Chayakada</a></li>
+                    <li><a href="blackboard.html">Blackboard</a></li>
+                   
+                    <li><a href="nights.html">Nights</a></li>
+                    <li><a href="beyond.html">Beyond</a></li>
+                    <li><a href="light.html">Light</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="col-md-4 mb-4">
+                <h6 class="footer-heading">Find Us</h6>
+                <p class="footer-text">
+                    Open: 6 PM – 1 AM <br>
+                    Near the Bus Stand, Kerala
+                </p>
+
+                <div class="social-icons mt-3">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="text-center small">
+            © 2026 Chaya Peedika. If the lantern glows, we’re open.
+        </div>
+
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,235 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000;
+    color: white;
+    font-family: cursive;
+    background: radial-gradient(circle at center, #1a1408 0%, #000 70%);
+}
+
+
+.navbar {
+    transition: 0.4s ease;
+    padding: 20px 0;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.50);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.navbar .nav-link {
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.logo-text {
+    font-family: 'Manjari', cursive;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    //color: #ffc107;
+    text-shadow: 
+        0 0 8px rgba(255,193,7,0.6),
+        0 0 15px rgba(255,193,7,0.4);
+}
+
+
+.nights-intro {
+    padding: 140px 0 60px;
+    background: linear-gradient(to bottom, #000, #111);
+    background-image: url(images/img22.jpeg);
+}
+
+.nights-intro h2 {
+    color: rgb(56, 25, 25);
+    margin-bottom: 15px;
+}
+
+.nights-intro p {
+    opacity: 0.9;
+    line-height: 1.8;
+}
+.night-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+
+.night-story {
+    padding: 80px 0;
+    background-color: #0a0a0a;
+}
+
+.night-story.alt {
+    background-color: #1a1a1a;
+}
+
+.night-story h4 {
+    font-family: 'Manjari', cursive;
+    font-size: 2rem;
+    color: #ffc107;
+    margin-bottom: 1.5rem;
+}
+
+.night-story p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 1.5rem;
+}
+
+.night-story .highlight {
+    font-style: italic;
+    color: #ffc107;
+    font-size: 1.15rem;
+    border-left: 3px solid #ffc107;
+    padding-left: 20px;
+    margin-top: 2rem;
+}
+
+.night-img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.night-img:hover {
+    transform: scale(1.02);
+}
+
+
+.nights-closing {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #2d1810 0%, #1a1a1a 100%);
+}
+
+.nights-closing h3 {
+    font-family: 'Manjari', cursive;
+    font-size: 2.5rem;
+    color: #ffc107;
+    margin-bottom: 1rem;
+}
+
+.nights-closing p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .nights-intro {
+        padding: 120px 20px 60px;
+    }
+    
+    .nights-intro h2 {
+        font-size: 2rem;
+    }
+    
+    .nights-intro p {
+        font-size: 1.1rem;
+    }
+    
+    .night-story {
+        padding: 60px 0;
+    }
+    
+    .night-story h4 {
+        font-size: 1.5rem;
+    }
+    
+    .night-story p {
+        font-size: 1rem;
+    }
+    
+    .nights-closing h3 {
+        font-size: 1.8rem;
+    }
+}
+
+.footer-section {
+    background: #000;
+    padding: 80px 0 30px 0;
+    color: #ddd;
+}
+
+.footer-logo {
+    font-family: 'Manjari', sans-serif;
+    color: #ffc107;
+}
+
+.footer-heading {
+    color: #ffc107;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffc107;
+}
+
+.footer-text {
+    opacity: 0.8;
+}
+
+.social-icons a {
+    color: #ffc107;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+.footer-divider {
+    border-color: rgba(255,255,255,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
